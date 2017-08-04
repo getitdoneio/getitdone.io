@@ -21,15 +21,20 @@
 }
 .hero.is-primary .subtitle{
   color: #777;
-
+  line-height: 2rem;
   padding-top: 1em;
 }
-.portfolio *{
+
+.portfolio{
   background-color: #23282d;
+}
+.portfolio *{
   font-family: Poppins;
   color: white;
 }
-
+.portfolio h3{
+  font-size: 1.5rem;
+}
 .uppercase{
   text-transform: uppercase;
 }
@@ -50,10 +55,53 @@
 .client{
   width:100%;
 }
+
 .cta-section{
   min-width: 60vh;
 }
 
+.address{
+  background-color: #23282d;
+  color: #D1D3D4;
+}
+.address .columns{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+}
+.stack .column{
+  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(100%);*/
+  /*max-width:2rem;*/
+}
+.cta-statement{
+  font-size: 2rem;
+}
+.address h3{
+  color: #7E8083;
+  padding-bottom: 2em;
+}
+
 .nav-item.is-active{
   color: black;
+}
+.stack > div{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.invert {
+  filter: invert(100%);
+-webkit-filter: invert(100%);
+}
+
+.stack {
+/*background-color: #23282d;*/
+}
+
+
+
+footer.footer{
+  color: white;
+  background-color: #242524
 }
