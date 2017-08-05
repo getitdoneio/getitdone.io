@@ -69,7 +69,8 @@
   padding-bottom: 3rem;
 
 }
-.stack .column{
+.stack .columns{
+  justify-content: center;
   /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   /*filter: grayscale(100%);*/
   /*max-width:2rem;*/
