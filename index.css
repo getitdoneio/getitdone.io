@@ -99,7 +99,25 @@
 /*background-color: #23282d;*/
 }
 
+.work-with h2{
+  font-size: 2rem;
+}
 
+.work-tgt {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #ebebeb;
+}
+.work-tgt h2{
+    font-size: 2rem;
+}
+
+.work-tgt a.cta{
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #7E8083;
+  /*color: black;*/
+}
 
 footer.footer{
   color: white;
